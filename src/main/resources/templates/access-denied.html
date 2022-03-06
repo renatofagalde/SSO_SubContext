@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Please sign in</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css" rel="stylesheet" crossorigin="anonymous"/>
+</head>
+<body>
+<style>
+    .alert {
+        padding: 20px;
+        background-color: #f44336; /* Red */
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    /* The close button */
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    /* When moving the mouse over the close button */
+    .closebtn:hover {
+        color: black;
+    }
+</style>
+<div class="container">
+
+    <div class="alert">
+        <span onclick="this.parentElement.style.display='none';">&times;</span>
+        Access denied
+    </div>
+    <a href="javascript:javascript:history.go(-1)">back</a>
+</div>
+</body>
+</html>
