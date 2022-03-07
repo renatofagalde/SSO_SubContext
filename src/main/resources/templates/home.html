@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="container">
-    <h2 class="form-sigin-heading">Welcome  <span th:text="${#authentication.getPrincipal().getUsername()}"></span></h2>
+    <h2 class="form-sigin-heading">Welcome  <span th:text="${#authentication.getPrincipal()}"></span></h2>
     <br/>
     <a href="/professor/manage-students">Manage Students</a>
     <br/>
